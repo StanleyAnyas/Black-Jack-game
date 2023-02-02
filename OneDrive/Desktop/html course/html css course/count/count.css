@@ -1,0 +1,63 @@
+h1 {
+    color: goldenrod;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#play-box {
+    display: block;
+    background-color: rgb(6, 117, 6);
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    border-color: yellow;
+    
+    background-size: cover;
+    border: 5px;
+    padding-top: 30px;
+    border-radius: 9px;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#message-el {
+    color: white;
+    text-align: center;
+}
+#start {
+    background-color: goldenrod;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.15s;
+    margin-bottom:15px ;
+    width: 100px;
+    margin-top: 15px;
+
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    color: #016f32;
+    font-weight: bold;
+}
+#newcard {
+    background-color: goldenrod;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.15s;
+    margin-bottom:15px ;
+    width: 100px;
+    margin-top: 15px;
+
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    color: #016f32;
+    font-weight: bold;
+}
+#start:hover {
+   opacity: 0,9;
+}
+#start:active{
+    opacity: 0,9;
+    border-color: aqua;
+}
